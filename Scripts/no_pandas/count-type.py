@@ -1,0 +1,5 @@
+str_1 = 'type,msgSeqNum,exchHostTime,adapterTime,px_buy_1,amt_buy_1,px_buy_2,amt_buy_2,px_buy_3,amt_buy_3,px_buy_4,amt_buy_4,px_buy_5,amt_buy_5,px_buy_6,amt_buy_6,px_buy_7,amt_buy_7,px_buy_8,amt_buy_8,px_buy_9,amt_buy_9,px_buy_10,amt_buy_10,px_sell_1,amt_sell_1,px_sell_2,amt_sell_2,px_sell_3,amt_sell_3,px_sell_4,amt_sell_4,px_sell_5,amt_sell_5,px_sell_6,amt_sell_6,px_sell_7,amt_sell_7,px_sell_8,amt_sell_8,px_sell_9,amt_sell_9,px_sell_10,amt_sell_10,trade_px,trade_amt,trade_cnt,moreTradesInBatch'
+str_2 = '4,173525833,1596240037364000000,1596240037431704679,11357.99,20.199,11357.67,0.169,11357.5,0.062,11357.26,0.235,11357.23,0.24,11357.2,0.001,11357.19,16.26,11357.16,0.088,11357.15,1.314,11356.8,0.166,11358.0,0.202,11358.17,0.017,11358.24,0.253,11358.25,0.175,11358.26,2.0,11358.33,0.004,11358.35,0.001,11358.82,0.001,12494.7,0.063,13744.17,0.111,11358.25,0.175,0,0.0'
+
+print(str_1.count(','))
+print(str_2.count(','))
